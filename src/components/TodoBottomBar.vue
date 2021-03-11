@@ -30,12 +30,12 @@ export default {
 
 <style lang="postcss">
 .bottom {
-  @apply flex flex-row items-center
+  @apply flex flex-row items-center justify-between
 }
 .msg {
-  @apply flex-grow text-gray-600
+  @apply flex-auto text-gray-600
 }
 .btn {
-  @apply flex-grow-0 rounded-xl bg-red-400 text-white hover:bg-red-600 p-2
+  @apply flex-none rounded-xl bg-red-400 text-white hover:bg-red-600 py-2 px-4
 }
 </style>
